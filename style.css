@@ -1,0 +1,173 @@
+@font-face { font-family: Didot; src: url('didot.otf'); } 
+
+.tokyo {	
+	font-size: 17px;
+	font-family: helvetica;
+	color: #fff;
+	display: flex;
+	align-items: left bottom;
+}
+
+.headingText {
+	position: left bottom;
+	margin-top: 100px;
+}
+
+.header {
+	padding: 7px, 7px, 7px, 7px;
+}
+
+body {
+	background-image: url('https://s16.postimg.org/4va4owglx/backg.jpg');
+/*	background-image: url('http://www.alfredo.motta.name/wp-content/uploads/2011/12/UCL-London.png'); */
+	background-position: left top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.uclPic {
+	background-image: url('https://s17.postimg.org/qckadr327/banner.jpg');
+	background-position: right bottom;
+	background-size: cover;
+	height: 100px;
+	position: absolute center;
+	/* Commenting for decision
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	box-shadow: 0 8px 6px -6px black;
+	*/
+}
+
+
+#text1 {
+	margin-top: 20px;
+	padding: 10, 10, 10, 10;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.gutter-10.row {
+	margin-right: -5px;
+	margin-left: -5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: auto;
+}
+
+.gutter-10 > [class^="col-"], .gutter-10 > [class^=" col-"] {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+
+h1 {
+	display: inline-block;
+	font-size: 12px;
+	line-height: 10px;
+	text-align: center;
+	margin-bottom: 5px;
+	font-family: Didot;
+}
+
+#img{
+	-webkit-transition: opacity 0.3s linear;
+	opacity: 1;
+}
+
+#img:hover{
+	-webkit-transition: opacity 0.3s linear;
+	opacity: 0.7;
+}
+
+a.class1{
+	text-decoration: none;
+	color: #4FA3B8;
+        -moz-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+        -webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+a.class1:hover{
+	text-decoration: none;
+	color: #FFF; 
+        -moz-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+        -webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+a.class2{
+	text-decoration: none;
+	color: #212230;
+        -moz-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+        -webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+a.class2:hover{
+	text-decoration: none;
+	color: #4fa3b8; 
+        -moz-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+        -webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+#boxing {
+	background-color: #fff;
+	padding: 10px, 10px, 10px, 10px;
+
+}
+
+p{
+	text-align: center;
+	margin:0px;
+	padding:0px;
+}
+
+#h2 {
+	padding-top: 30px;
+	margin-left: 20px;
+	padding-left: 30px;
+}
+
+.h2 {
+	padding: 7px, 7px, 7px, 7px;
+	font-size: 22px;
+	line-height: 22px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	font-family: Didot;
+	display: block;
+	text-align: left;
+	color: #000;
+}	
+
+.col-md-3 {
+	margin-left: 10px;
+}
+
+#sidebar {
+	width: 200px;
+	height: 100%;
+	background: linear-gradient(#BABABA, #FFF); /* Standard syntax */
+	text-align: center;
+	padding: 10px, 10px, 10px, 10px;
+	margin-top: 12px;
+}
+
+.dropshadow {    
+	height: auto;
+	-webkit-box-shadow: -15px 13px 20px 3px rgba(0,0,0,0.91);
+	-moz-box-shadow: -15px 13px 20px 3px rgba(0,0,0,0.91);
+	box-shadow: -15px 13px 20px 3px rgba(0,0,0,0.2);
+}
+
+@media screen and (min-width: 0px) and (max-width: 1000px) {
+  #sidebar { 
+  	margin: 0 auto; 
+  }  /* show it on small screens */
+}
